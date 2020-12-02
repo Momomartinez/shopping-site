@@ -7,6 +7,51 @@ body{
   font-family: 'Signika Negative', sans-serif;
 }
 
+.main-header{
+  padding: 8px 16px;
+  width: 100%;
+  background-color: #FFC0CB;
+}
+
+.main-header > div {
+  vertical-align: middle;
+  display: inline-block;
+}
+
 .main-header__brand{
-  font-family: 'Palanquin Dark', sans-serif;
+  font-family: 'Palanquin', sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  padding-left: 16px;
+}
+
+.main-nav{
+  width: calc(100% - 95px);
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.main-nav__items{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item{
+  display: inline-block;
+  padding: 0 16px;
+}
+
+.main-nav__item a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 3px 0;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active{
+  border-bottom: 2px solid black;
 }
