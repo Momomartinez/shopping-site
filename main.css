@@ -55,3 +55,17 @@ body{
 .main-nav__item a:active{
   border-bottom: 2px solid black;
 }
+
+/* jumbotron section */
+
+#jumbotron-pic{
+  width: 100%;
+  height: 500px;
+  background: url(img/freestocks-_3Q3tsJ01nc-unsplash.jpg);
+  padding: 50px;
+}
+
+.jumbotron-title{
+  padding-top: 30px;
+
+}
