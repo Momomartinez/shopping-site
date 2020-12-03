@@ -7,6 +7,18 @@ body{
   font-family: 'Signika Negative', sans-serif;
 }
 
+.top-header{
+  background-color: rgb(233, 147, 187);
+  margin: 0;
+}
+
+.top-header h5{
+  color: white;
+  padding: 5px 0 5px 32px;
+  margin: 0;
+  vertical-align: middle;
+}
+
 .main-header{
   padding: 8px 16px;
   width: 100%;
