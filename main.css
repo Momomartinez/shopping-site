@@ -10,7 +10,7 @@ body{
 .main-header{
   padding: 8px 16px;
   width: 100%;
-  background-color: #FFC0CB;
+  background-color: white;
 }
 
 .main-header > div {
@@ -19,15 +19,15 @@ body{
 }
 
 .main-header__brand{
-  font-family: 'Palanquin', sans-serif;
-  font-size: 25px;
+  font-family: 'Yellowtail', cursive;
+  font-size: 35px;
   text-decoration: none;
-  color: black;
+  color: rgb(233, 147, 187);
   padding-left: 16px;
 }
 
 .main-nav{
-  width: calc(100% - 95px);
+  width: calc(100% - 145px);
   display: inline-block;
   vertical-align: middle;
   text-align: right;
