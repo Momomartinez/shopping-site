@@ -9,7 +9,7 @@ body{
 
 /* top header */
 .top-header{
-  background-color: rgb(233, 147, 187);
+  background-color: #e993bb;
   margin: 0;
 }
 
@@ -35,7 +35,7 @@ body{
   font-family: 'Yellowtail', cursive;
   font-size: 35px;
   text-decoration: none;
-  color: rgb(233, 147, 187);
+  color: #e993bb;
   padding-left: 16px;
 }
 
@@ -67,4 +67,28 @@ body{
 .main-nav__item a:hover,
 .main-nav__item a:active{
   border-bottom: 2px solid black;
+}
+
+/* footer */
+#main-footer{
+  background: #e993bb;
+  text-align: center;
+  margin-top: 48px;
+  padding: 32px;
+}
+
+.main-footer__links{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-footer__link{
+  display: inline-block;
+  padding: 0 16px;
+}
+
+.main-footer__link a{
+  color: white;
+  text-decoration: none;
 }
